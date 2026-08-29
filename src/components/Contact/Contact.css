@@ -1,0 +1,81 @@
+.contact {
+  margin-top: 30px;
+}
+
+.contact h2 {
+  font-size: 22px;
+  color: var(--pink-deep);
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding-left: 2px;
+}
+
+.contact-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 22px 20px 20px;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--pink-soft);
+}
+
+.contact-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-soft);
+  margin-top: 14px;
+}
+
+.contact-label:first-child {
+  margin-top: 0;
+}
+
+.contact-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 15px 18px;
+  border-radius: var(--radius-pill);
+  min-height: 52px;
+  box-shadow: 0 6px 16px rgba(232, 84, 140, 0.28);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-call {
+  background: linear-gradient(135deg, var(--pink-primary), var(--pink-dark));
+  color: var(--white);
+}
+
+.btn-map {
+  background: var(--white);
+  color: var(--pink-dark);
+  border: 2px solid var(--pink-primary);
+  box-shadow: none;
+}

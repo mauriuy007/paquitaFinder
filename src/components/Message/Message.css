@@ -1,0 +1,13 @@
+.message {
+  margin-top: 20px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+}
+
+.message p {
+  font-size: 15.5px;
+  line-height: 1.6;
+  font-weight: 500;
+}
