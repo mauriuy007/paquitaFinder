@@ -3,29 +3,8 @@
   padding: 24px 20px 36px;
 }
 
-.footer-qr {
-  width: 88px;
-  height: 88px;
-  border-radius: var(--radius-md);
-  background: var(--white);
-  padding: 8px;
-  box-shadow: var(--shadow);
-  border: 2px solid var(--pink-soft);
-}
-
-.footer-qr-label {
-  margin-top: 8px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--pink-dark);
-}
-
 .footer p {
   font-size: 13px;
   color: var(--text-soft);
   font-weight: 600;
-}
-
-.footer p:last-child {
-  margin-top: 14px;
 }
